@@ -1,0 +1,5 @@
+RANSAC.h和RANSAC.cpp是独立的RANSAC框架可以独立使用
+fundamentalMatrix.h和fundamentalMatrix.cpp需要openCV的支持，这里使用的2.4.10版本。这两个文件里实现了基本矩阵的求解方法。
+test.h里可以控制使用怎样的基本矩阵求解方法，以及是否显示RANSAC去噪结果
+testFundamentalMatrix.cpp是测试函数，里面实现了RANSAC求解基本矩阵。
+main.cpp是测试函数的主函数。
